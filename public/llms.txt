@@ -7,21 +7,21 @@
 ## Pages
 
 ### דף הבית
-https://example.com
+https://dror-ben-moshe-law-office.zappy5.app
 משרד בוטיק מוביל המעניק שירותי ייעוץ משפטי prepaid לרגעים הרגישים בחיים: צוואות, ייפוי כוח, חדלות פירעון ותביעות קטנות. דיסקרטיות, בהירות וליווי צמוד מזומן לפתרון. התקשרו עוד היום לפגישת היכרות.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://dror-ben-moshe-law-office.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://dror-ben-moshe-law-office.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://dror-ben-moshe-law-office.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -34,8 +34,8 @@ Information about WCAG compliance and accessibility features.
 - Address: רח' ז'בוטינסקי 61 (ב.ס.ר סיטי), בניין I קומה 15, פתח תקווה, ז'בוטינסקי 61, 4959220, ישראל
 
 ### Contact form
-- URL: https://example.com
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://dror-ben-moshe-law-office.zappy5.app
+- Endpoint: https://dror-ben-moshe-law-office.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -65,6 +65,6 @@ Legal Services
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://dror-ben-moshe-law-office.zappy5.app/sitemap.xml
+- Robots: https://dror-ben-moshe-law-office.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://dror-ben-moshe-law-office.zappy5.app/llms-full.txt
