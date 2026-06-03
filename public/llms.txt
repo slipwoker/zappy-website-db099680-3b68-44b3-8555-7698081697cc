@@ -1,0 +1,67 @@
+# משרד עורכי דין דרור בן משה — Generative Engine Optimization Map
+
+> A boutique premium law firm founded and managed by Attorney Dror Ben Moshe, offering 360-degree legal protection across life's most sensitive crossroads. The firm combines deep strategic legal expertise — honed at one of Israel's leading commercial law firms — with a direct, no-nonsense, client-first approach. The brand identity is built on trust, discretion, and clarity: breaking down legal complexity into clear bottom lines without wasting time. The firm serves three core audiences: future planners and seniors (wills, POA), individuals in financial crisis (enforcement, insolvency), and justice-seekers (small claims, litigation). The tone is authoritative yet accessible, with a premium boutique feel — sophisticated navy and champagne gold palette reinforcing professionalism and reliability.
+
+---
+
+## Pages
+
+### דף הבית
+https://-db099680.zappy5.app
+משרד בוטיק מוביל המעניק שירותי ייעוץ משפטי prepaid לרגעים הרגישים בחיים: צוואות, ייפוי כוח, חדלות פירעון ותביעות קטנות. דיסקרטיות, בהירות וליווי צמוד מזומן לפתרון. התקשרו עוד היום לפגישת היכרות.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-db099680.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-db099680.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-db099680.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://-db099680.zappy5.app
+- Endpoint: https://-db099680.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About משרד עורכי דין דרור בן משה
+A boutique premium law firm founded and managed by Attorney Dror Ben Moshe, offering 360-degree legal protection across life's most sensitive crossroads. The firm combines deep strategic legal expertise — honed at one of Israel's leading commercial law firms — with a direct, no-nonsense, client-first approach. The brand identity is built on trust, discretion, and clarity: breaking down legal complexity into clear bottom lines without wasting time. The firm serves three core audiences: future planners and seniors (wills, POA), individuals in financial crisis (enforcement, insolvency), and justice-seekers (small claims, litigation). The tone is authoritative yet accessible, with a premium boutique feel — sophisticated navy and champagne gold palette reinforcing professionalism and reliability.
+
+## Target Audience
+- מתכנני עתיד ובני הגיל השלישי, חייבים ואנשים במשבר כלכלי, נפגעים ומחפשי צדק, בעלי עסקים עם סכסוכים חוזיים
+- מתכנני עתיד ובני הגיל השלישי
+- חייבים ואנשים במשבר כלכלי
+- נפגעים ומחפשי צדק
+
+## Industry
+Legal Services
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-db099680.zappy5.app/sitemap.xml
+- Robots: https://-db099680.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-db099680.zappy5.app/llms-full.txt
