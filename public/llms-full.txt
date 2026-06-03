@@ -2,13 +2,13 @@
 
 A boutique premium law firm founded and managed by Attorney Dror Ben Moshe, offering 360-degree legal protection across life's most sensitive crossroads. The firm combines deep strategic legal expertise — honed at one of Israel's leading commercial law firms — with a direct, no-nonsense, client-first approach. The brand identity is built on trust, discretion, and clarity: breaking down legal complexity into clear bottom lines without wasting time. The firm serves three core audiences: future planners and seniors (wills, POA), individuals in financial crisis (enforcement, insolvency), and justice-seekers (small claims, litigation). The tone is authoritative yet accessible, with a premium boutique feel — sophisticated navy and champagne gold palette reinforcing professionalism and reliability.
 
-Source: https://-db099680.zappy5.app
+Source: https://example.com
 
 ---
 
 ## הגנה משפטית 360° — משרד עורכי דין דרור בן משה
 
-URL: https://-db099680.zappy5.app
+URL: https://example.com
 Description: משרד בוטיק מוביל המעניק שירותי ייעוץ משפטי prepaid לרגעים הרגישים בחיים: צוואות, ייפוי כוח, חדלות פירעון ותביעות קטנות. דיסקרטיות, בהירות וליווי צמוד מזומן לפתרון. התקשרו עוד היום לפגישת היכרות.
 
 הגנה משפטית 360° — משרד עורכי דין דרור בן משה
@@ -646,7 +646,7 @@ Description: משרד בוטיק מוביל המעניק שירותי ייעוץ
 
 ## מדיניות פרטיות
 
-URL: https://-db099680.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -895,7 +895,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://-db099680.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1153,7 +1153,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://-db099680.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
