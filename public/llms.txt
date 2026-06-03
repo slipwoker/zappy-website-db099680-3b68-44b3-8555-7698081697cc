@@ -29,8 +29,8 @@ Information about WCAG compliance and accessibility features.
 ## How to Contact Us
 
 - Email: dror.benmoshe.office@gmail.com
-- Phone: +972055-3167001
-- Phone (tel): tel:+9720553167001
+- Phone: 055-3167001
+- Phone (tel): tel:0553167001
 - Address: רח' ז'בוטינסקי 61 (ב.ס.ר סיטי), בניין I קומה 15, פתח תקווה, 4959220, ישראל
 
 ### Contact form
