@@ -5592,6 +5592,337 @@ body {
     font-size: 0.95rem;
   }
 }
+
+/* Added Component Styles */
+.cta-contact-section {
+  background: linear-gradient(135deg, #0a0f1e 0%, #141b2d 40%, #1a2332 100%);
+  padding: 90px 24px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative background elements */
+.cta-contact-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(26, 115, 232, 0.08) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.cta-contact-section::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(26, 115, 232, 0.06) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.cta-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.cta-badge {
+  display: inline-block;
+  background: rgba(26, 115, 232, 0.15);
+  color: #64b5f6;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  border: 1px solid rgba(26, 115, 232, 0.25);
+}
+
+.cta-heading {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 18px 0;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+}
+
+.cta-description {
+  font-size: 1.125rem;
+  color: #b0bec5;
+  line-height: 1.75;
+  margin: 0 0 32px 0;
+  max-width: 520px;
+}
+
+.cta-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+
+.cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 28px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.cta-btn-primary {
+  background: var(--primary, #1A73E8);
+  color: #ffffff;
+  box-shadow: 0 8px 30px rgba(26, 115, 232, 0.35);
+}
+
+.cta-btn-primary:hover {
+  background: #1557b0;
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px rgba(26, 115, 232, 0.5);
+}
+
+.cta-btn-primary:focus-visible {
+  outline: 3px solid #64b5f6;
+  outline-offset: 3px;
+}
+
+.cta-btn-secondary {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.cta-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.55);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.cta-btn-secondary:focus-visible {
+  outline: 3px solid #64b5f6;
+  outline-offset: 3px;
+}
+
+.cta-btn-icon {
+  flex-shrink: 0;
+}
+
+.cta-trust-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.cta-trust-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #90a4ae;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.cta-trust-icon {
+  color: #4caf50;
+  flex-shrink: 0;
+}
+
+/* Visual / Image Side */
+.cta-visual {
+  flex: 0 0 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+}
+
+.cta-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-image-wrapper:hover .cta-image {
+  transform: scale(1.02);
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+
+.cta-image-badge {
+  position: absolute;
+  bottom: -12px;
+  right: -12px;
+  background: #ffffff;
+  color: #1a1a2e;
+  border-radius: 16px;
+  padding: 14px 22px;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cta-badge-years {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--primary, #1A73E8);
+  line-height: 1;
+}
+
+.cta-badge-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #546e7a;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .cta-contact-section {
+    padding: 60px 20px;
+  }
+
+  .cta-container {
+    flex-direction: column-reverse;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-heading {
+    font-size: 2rem;
+  }
+
+  .cta-description {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .cta-actions {
+    justify-content: center;
+  }
+
+  .cta-trust-badges {
+    justify-content: center;
+  }
+
+  .cta-visual {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .cta-image-wrapper {
+    max-width: 280px;
+  }
+
+  .cta-image-badge {
+    right: -8px;
+    bottom: -10px;
+    padding: 10px 16px;
+  }
+
+  .cta-badge-years {
+    font-size: 1.3rem;
+  }
+
+  .cta-badge-label {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-contact-section {
+    padding: 50px 16px;
+  }
+
+  .cta-heading {
+    font-size: 1.6rem;
+  }
+
+  .cta-description {
+    font-size: 0.95rem;
+  }
+
+  .cta-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .cta-btn {
+    justify-content: center;
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 1rem;
+  }
+
+  .cta-trust-badges {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .cta-visual {
+    max-width: 220px;
+  }
+
+  .cta-image-wrapper {
+    max-width: 220px;
+  }
+
+  .cta-image-badge {
+    right: -4px;
+    bottom: -8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+  }
+
+  .cta-badge-years {
+    font-size: 1.1rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
