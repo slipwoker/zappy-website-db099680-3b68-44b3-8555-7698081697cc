@@ -5258,6 +5258,42 @@ body {
 .site-footer .footer-hours li:hover {
   opacity: 1;
 }
+
+.index-hero-section .hero-headline,
+.index-hero-section .hero-subtitle {
+  font-family: 'Playfair Display', 'Times New Roman', serif !important;
+}
+
+.index-services-section__header h2,
+.index-services-section__card h3 {
+  font-family: 'Playfair Display', 'Times New Roman', serif !important;
+}
+
+.index-about-section__heading,
+.index-about-section__principle-title {
+  font-family: 'Playfair Display', 'Times New Roman', serif !important;
+}
+
+.index-testimonials-section__title {
+  font-family: 'Playfair Display', 'Times New Roman', serif !important;
+}
+
+.index-stats-section__heading,
+.index-stats-section__checklist-heading {
+  font-family: 'Playfair Display', 'Times New Roman', serif !important;
+}
+
+.index-contact-section__heading {
+  font-family: 'Playfair Display', 'Times New Roman', serif !important;
+}
+
+.index-cta-section__heading {
+  font-family: 'Playfair Display', 'Times New Roman', serif !important;
+}
+
+.site-footer h4 {
+  font-family: 'Playfair Display', 'Times New Roman', serif !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
